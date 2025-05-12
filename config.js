@@ -4,7 +4,7 @@ module.exports = {
         "docker:enableMajor",
         ":disableRateLimiting",
     ],
-    platform: "gitlab",
+    // platform: "gitlab",
     autodiscover: false,
     repositories: [
         "yellowhat/bug-renovate",
