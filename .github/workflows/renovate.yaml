@@ -26,3 +26,4 @@ jobs:
         uses: docker://ghcr.io/renovatebot/renovate:40.11.8
         with:
           args: renovate
+          docker-options: --user root
